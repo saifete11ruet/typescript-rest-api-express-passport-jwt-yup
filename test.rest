@@ -1,0 +1,17 @@
+POST http://localhost:8000/registration HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "email": "saifete11ruet@gmail.com",
+    "phone": "+09435435345",
+    "occupation": "asfsaf"
+}
+###
+POST http://localhost:8000/set-password HTTP/1.1
+content-type: application/json
+
+{
+    "password": "sample",
+    "passwordConfirmation": ""
+}
